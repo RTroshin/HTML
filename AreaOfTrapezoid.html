@@ -1,0 +1,22 @@
+<meta charset="utf-8">
+<!-- <script type="text/javascript">
+"Старый стандарт HTML, HTML4, требовал наличия атрибута type в теге <script>. Обычно он имел значение type="text/javascript". На текущий момент этого больше не требуется."
+Источник: https://learn.javascript.ru/hello-world -->
+<script>
+
+	alert("Программа для подсчёта площади трапеции"); 
+	var a = prompt("Введите длину основания 'a'");
+	var b = prompt("Введите длину основания 'b'");
+	var h = prompt("Введите высоту 'h'");
+	
+	// Вместо parseInt() можно использовать +prompt()
+
+	a = parseInt(a); 
+	b = parseInt(b);
+	h = parseInt(h);	
+
+	var s = ((a + b) / 2) * h;
+	// var s = (a + b) / 2 * h; Можно убрать лишние скобки и записать так
+	alert("Площадь трапеции будет равна: " + s);
+
+</script>
